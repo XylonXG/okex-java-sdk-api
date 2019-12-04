@@ -1,0 +1,31 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.okcoin.commons:okex-java-sdk-api:jar:1.0.0
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-collections:commons-collections:jar -> version 3.2.2 vs 3.2.1 @ line 137, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.alibaba:fastjson:jar -> version 1.2.46 vs 1.2.12 @ line 163, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.alibaba:fastjson:jar -> version 1.2.46 vs 1.2.12 @ line 181, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 195, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building okex-java-sdk-api 1.0.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for examples-jna:examples-jna:jar:1.0.0 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.363 s
+[INFO] Finished at: 2019-12-03T21:02:22+08:00
+[INFO] Final Memory: 7M/123M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project okex-java-sdk-api: Could not resolve dependencies for project com.okcoin.commons:okex-java-sdk-api:jar:1.0.0: Failure to find examples-jna:examples-jna:jar:1.0.0 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
